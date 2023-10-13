@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-title>Template Email</mj-title>
+    <mj-attributes>
+      <mj-all font-family="helvetica"></mj-all>
+      <mj-body background-color="#f5f5f5"></mj-body>
+      <mj-section background-color="#FAFAFA" padding="20px"></mj-section>
+      <mj-column padding="20px"></mj-column>
+      <mj-text font-size="16px" line-height="24px"></mj-text>
+      <mj-divider border-width="1px" border-color="#d2d2d2"></mj-divider>
+      <mj-spacer padding="0px"></mj-spacer>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-section padding="40px" background-color="#f5f5f5">
+    </mj-section>
+    <mj-section border-radius="5px" background-color="#fff">
+      <mj-column>
+        <mj-text>
+          <strong color="#1f2937">From:</strong>
+          {{name}}
+        </mj-text>
+
+        <mj-text color="#3b82f6" align="center" padding-top="20px">{{email}},</mj-text>
+        <mj-text align="center">Has sent you a message</mj-text>
+
+        <mj-divider></mj-divider>
+
+        <mj-text padding-top="30px">
+          <strong>Message:</strong>
+        </mj-text>
+
+        <mj-text padding-top="5px">{{message}}</mj-text>
+        <mj-spacer height="100px"></mj-spacer>
+        <mj-text align="center" font-size="12px" color="#6b7280">© 2023 Demo Template Email with mjml</mj-text>
+
+      </mj-column>
+    </mj-section>
+    <mj-section padding="40px" background-color="#f5f5f5">
+    </mj-section>
+  </mj-body>
+</mjml>
