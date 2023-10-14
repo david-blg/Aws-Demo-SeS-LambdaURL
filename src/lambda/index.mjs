@@ -1,4 +1,4 @@
-// Import the necessary libraries
+// Import the necessary libraries from SDK V3
 import { SendTemplatedEmailCommand, SESClient } from "@aws-sdk/client-ses";
 
 // Create an instance of the SES client with the specified region (replace "<YOUR_REGION>" with your actual region)
